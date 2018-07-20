@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mandatory Access Control</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container" id="init">
+      <div class="inside">
+        <form class="form">
+         <p class="welcome">WELCOME</p>
+           <p class="identifier">Input your name:</p>
+           <input type="text" size="8" class="form__field" id="inpt"><button type='button' class="btn btn--primary btn--inside" onclick="check_rights();">CHECK</button>
+          </form>
+      </div>
+ </div> 
+ <div class="container" id="usr">
+      <div class="inside" id="main_content">
+          <p class="usr">HELLO, USER!</p>
+          <p class="usr">Here`s what you can do</p>
+          <table>
+              <tr><td>FILE 1</td>
+              <td><button type='button' class="btn btn--primary" onclick="triggered(0);">CHECK</button></td></tr>
+              <tr><td>FILE 2</td>
+              <td><button type='button' class="btn btn--primary" onclick="triggered(1);">CHECK</button></td></tr>
+              <tr><td>FILE 3</td>
+              <td><button type='button' class="btn btn--primary" onclick="triggered(2);">CHECK</button></td></tr>
+              <tr><td>FILE 4</td>
+              <td><button type='button' class="btn btn--primary" onclick="triggered(3);">CHECK</button></td></tr>
+              <tr><td>FILE 5</td>
+              <td><button type='button' class="btn btn--primary" onclick="triggered(4);">CHECK</button></td></tr>
+          </table>
+
+      </div>
+</div>
+ 
+</body>
+</html> 
